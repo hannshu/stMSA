@@ -16,8 +16,8 @@ Contents
 .. toctree::
 
    installation
-   section1
-   section2
-   section3
-   section4
-   section5
+   train_clustering
+   cross_batch_matching
+   multi_slice_alignment_representation_lerning
+   multi_slice_alignment
+   evaluate_model
