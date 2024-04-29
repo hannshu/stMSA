@@ -1,5 +1,5 @@
 # stMSA
-[![Documentation Status](https://readthedocs.org/projects/stMSA/badge/?version=latest)](https://stmsa.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/stmsa/badge/?version=latest)](https://stmsa.readthedocs.io/en/latest/?badge=latest)
 
 ![stMSA overview](./framework.png) 
 
