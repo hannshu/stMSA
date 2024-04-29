@@ -40,10 +40,11 @@ All dependencies of stMSA have been properly installed in this container, includ
 - Details of the container
 
 .. code-block:: bash
-/root
-|-- stMSA           # The stMSA source code
-|-- stMSA_paras     # The model parameters of stMSA for each experiment
-\`-- stMSA_results   # The embedding result of each experiment
+   
+   /root
+   |-- stMSA           # The stMSA source code
+   |-- stMSA_paras     # The model parameters of stMSA for each experiment
+   `-- stMSA_results   # The embedding result of each experiment
 
 Setup by Anaconda
 ~~~~~~~~~~~~
