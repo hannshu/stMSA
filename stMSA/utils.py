@@ -50,11 +50,11 @@ def gen_clust_embed(data, batchs, method, para, seed, device):
 def find_similar_index(source: np.ndarray, target: np.ndarray, top_k: int=1):
     index = faiss.IndexFlatL2(source.shape[1])
 
-    faiss.normalize_L2(source)
-    faiss.normalize_L2(target) 
-    index.add(target)
+    faiss.normalize_L2(np.float32(source))
+    faiss.normalize_L2(np.float32(target)) 
+    index.add(np.float32(target))
 
-    return index.search(source, top_k)
+    return index.search(np.float32(source), top_k)
 
 
 def get_mnn_pairs(data, node_id_map, top_k):
@@ -115,9 +115,9 @@ def get_palette(label_list, opacity=1.0, use_cmap_func=None):
     # set cmp function
     import matplotlib
     if (not isinstance(use_cmap_func, matplotlib.colors.Colormap)):
-        if (max_label <= 10):
+        if (max_label < 10):
             use_cmap_func = plt.cm.tab10
-        elif (max_label <= 20):
+        elif (max_label < 20):
             use_cmap_func = plt.cm.tab20
         else:
             use_cmap_func = plt.cm.gist_ncar
