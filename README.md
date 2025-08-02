@@ -92,8 +92,7 @@ adata = stds.cl.evaluate_embedding(adatas, len(set(adatas.obs['cluster']))-1)
 ## Tutorial
 Read the [Documentation](https://stmsa.readthedocs.io/en/latest/) for detailed tutorials.
 
-<!-- ## Citation
-If you have found our model useful in your work, please consider citing [our article](url):
-```
+## Citation
+If you have found our model useful in your work, please consider citing [our article](https://doi.org/10.1101/gr.280584.124).
 
-``` -->
+Han Shu, Jing Chen, Chang Xu, Jialu Hu, Yongtian Wang, Jiajie Peng, Qinghua Jiang, Xuequn Shang, and Tao Wang. "Efficient integration of spatial omics data for joint domain detection, matching, and alignment with stMSA." Genome Research. doi: 10.1101/gr.280584.124
