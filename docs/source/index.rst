@@ -17,8 +17,9 @@ Contents
 
    installation
    train_clustering
-   cross_batch_matching
+   imbalanced
    rna_protein
+   cross_batch_matching
    multi_slice_alignment_representation_lerning
    multi_slice_alignment
    evaluate_model
